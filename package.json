@@ -1,0 +1,10 @@
+{
+  "name": "resumeiq-ai",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"cd client && npm run dev\" \"cd server/server && npm run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
