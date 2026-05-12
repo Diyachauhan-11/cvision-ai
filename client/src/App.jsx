@@ -20,7 +20,7 @@ function App() {
       setResult(null);
 
       const response = await axios.post(
-        "https://cvision-ai.onrender.com/api/resume/upload",
+        "https://cvision-ai-cvef.onrender.com/api/resume/upload",
         formData
       );
 
